@@ -35,3 +35,76 @@ body {
 }
 
 /* MAIN */
+.main{
+    width: 100%;
+    height: calc(100vh - 80px);   /*calculo para não cobrir o espaçamento do header*/
+    background-color: #000000;
+    background-image: url(imgs/programador-fundo.png);
+
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 54px;
+}
+
+.main p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+    margin: 10px 0px 35px 0px;
+}
+
+.call-to-action{
+    cursor: pointer;
+
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.8s; /*duração total do efeito*/
+}
+
+.call-to-action:hover{
+    transform: scale(1.1); /*aplicando efeito aumento de escala */
+}
+
+.main a{
+    text-decoration: none;
+    color: #181818;
+}
+
+/* SOBRE */
+
+.about{
+    background-color: #fff;
+    width: 100%;
+    padding: 80px 10% 80px 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} 
+
+.about div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about div h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.about img{
+    max-width: 450px;
+    height: 325px;
+
+    border-radius: 8px;
+}
