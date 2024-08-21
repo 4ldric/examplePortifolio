@@ -230,4 +230,23 @@ footer p {
     width: 85%;
     margin-top: 30px;
   }
+
+  /* PROJETOS */
+  .projects img {
+    width: 29%;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+  }
+
+  footer h3 {
+    font-size: 23px;
+    margin-bottom: 8px;
+  }
+
+  footer p {
+    margin: 0;
+  }
 }
